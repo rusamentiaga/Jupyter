@@ -11,6 +11,5 @@ CMD jupyter lab --config=/root/.jupyter/jupyter_notebook_config.py --port=8888 -
 # sudo docker build -f Dockerfile -t jupyter .
 
 # Run
-# # Run
 # docker run --gpus all --ipc=host --ulimit memlock=-1 --ulimit stack=67108864 --rm --net=host -v "$(pwd)":/usr/src/app/local/ jupyter
 
